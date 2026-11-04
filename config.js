@@ -16,7 +16,7 @@ const CONFIG = {
   // 📅 TIMELINE KENANGAN: tgl = tanggal, txt = cerita, img = foto (kosong = tanda tempat foto)
   timeline: [
     { tgl: "Hari pertama kita bertemu", txt: "Awal dari semua cerita indah kita 💕", img: "1.jpeg" },
-    { tgl: "Jalan-jalan sekalin ke Kiara",  txt: "Hari ketika Mewujudkan salah satu wishlistmu 🥰", img: "2.jpeg" },
+    { tgl: "Jalan-jalan sekalian ke Wayang Windu",  txt: "Hari ketika Mewujudkan salah satu wishlistmu 🥰", img: "2.jpeg" },
     { tgl: "Momen favoritku",           txt: "Setiap Senyummu adalah hal terbaik buatku ✨", img: "3.jpeg" }
   ],
 
