@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Happy Birthday Sayangku🎂</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="confetti"></canvas>
+
+  <!-- 1. Hitung mundur -->
+  <section id="countdown" class="scene">
+    <p>Sesuatu yang spesial akan dimulai…</p>
+    <div class="big" id="countNum">3</div>
+  </section>
+
+  <!-- 2. Kue ulang tahun -->
+  <section id="cakeScene" class="scene">
+    <h1 id="cakeTitle"></h1>
+    <div class="cake" id="cake"></div>
+    <p id="cakeText">Tiup lilinnya… 🌬️</p>
+  </section>
+
+  <!-- 3. Timeline kenangan -->
+  <section id="timeline" class="scene">
+    <h2>Perjalanan Kita 💞</h2>
+    <div id="timelineList"></div>
+  </section>
+
+  <!-- 4. Surat -->
+  <section id="letter" class="scene">
+    <h2>Surat untukmu 💌</h2>
+    <div class="paper cursor" id="paper"></div>
+  </section>
+
+  <!-- 5. Galeri 3D -->
+  <section id="gallery" class="scene">
+    <h2>Galeri Kita 📸</h2>
+    <div class="stage"><div class="ring" id="ring"></div></div>
+    <p id="finalText"></p>
+  </section>
+
+  <!-- Tombol kontrol -->
+  <button class="ctl" id="musicBtn" style="right:auto;left:14px"></button>
+  <button class="ctl" id="skipBtn">Lewati ⏭️</button>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
