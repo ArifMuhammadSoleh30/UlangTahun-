@@ -17,7 +17,7 @@ const CONFIG = {
   timeline: [
     { tgl: "Hari pertama kita bertemu", txt: "Awal dari semua cerita indah kita 💕", img: "1.jpeg" },
     { tgl: "Jalan-jalan sekalin ke Kiara",  txt: "Hari ketika Mewujudkan salah satu wishlistmu 🥰", img: "2.jpeg" },
-    { tgl: "Momen favoritku",           txt: "Setiap tawamu adalah hal terbaik buatku ✨", img: "3.jpeg" }
+    { tgl: "Momen favoritku",           txt: "Setiap Senyummu adalah hal terbaik buatku ✨", img: "3.jpeg" }
   ],
 
   // 💌 SURAT: {nama} dan {dari} otomatis diganti
@@ -25,7 +25,7 @@ const CONFIG = {
     "Hai {nama} 💕\n\n" +
     "Selamat ulang tahun ya! Makasih sudah hadir dan bikin hari-hariku lebih berwarna.\n\n" +
     "Semoga semua mimpimu tercapai, sehat selalu, dan makin bahagia. Aku akan selalu ada di sampingmu.\n\n" +
-    "I love you, 3000! 🥰\n\n" +
+    "I love you! 🥰\n\n" +
     " {dari}",
 
   // 🎉 Ucapan penutup di galeri
